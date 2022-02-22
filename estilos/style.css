@@ -1,0 +1,138 @@
+     
+     @charset "UTF-8";
+
+     @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Kaushan+Script&family=Raleway:wght@300&family=Righteous&family=Sedgwick+Ave&display=swap');
+
+      body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(170, 185, 180);
+      }
+      .header{
+        background-size: cover;
+        margin-top: 0%;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        background-size: 100%;
+  }
+
+      .header h1{
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        margin-top: 110px;
+        font-size: 100px;
+        text-transform: uppercase;
+  }
+
+      .header h2{
+            text-align: center;
+            font-style: italic;
+            font-size: 30px;
+            margin-bottom: 30px; 
+  }
+
+      .menuprincipal  {
+        text-align: center;
+        position: relative;
+  }
+
+      .menucompras {
+       text-align:center;
+  }
+
+      .menucompras a {
+      padding: 50px;
+      font-size: 25px;
+      font-family: 'Righteous', cursive;
+      text-transform: uppercase;  
+      color: black;
+      text-decoration: none;
+  }
+      .menuprincipal a {
+        padding-top: 0px;
+        font-family: 'Righteous', cursive;
+        font-size: 40px;
+        text-decoration: none;
+        color: black;
+        margin: 50px;
+  }
+
+      nav a:hover{
+        text-decoration: underline;    
+  }
+
+      .menu{
+        max-width: 500px ;
+        border-style: solid;
+        margin: 20px;
+        border-radius: 10px;
+        border-width: 1px;
+        box-shadow: 5px 5px 10px black;
+  }
+
+      #menu-txt{
+            margin-top: 80%;
+
+      }
+
+      .menu p {
+       padding: 20px;
+       text-align: justify;
+  }
+      .menu h2 {
+      font-family: 'Righteous', cursive;
+      text-align: center;
+      font-weight: lighter;
+      font-size: 35px;
+  }
+
+      footer p {
+      text-align: center;
+      margin: 0%;
+      font-style: italic;
+  } /*Final da sessão Main */
+
+
+          /*Começo da estilizaçõa da sessão Sliders */
+      .content{
+            height: 600px;
+            width: 100%;
+            border-radius: 20px;
+      }
+      .slides{
+            justify-content: center;
+            display: flex;
+            height: 600px;
+            width: 1000px;
+      }
+      .slides input{
+            display: none;
+      }
+      .slide{
+           width: 20%;
+           transition: 2s;
+      }
+            /* CSS para slide de navegação manual */
+
+      .navigation-manual{
+            position: absolute;
+            width: 800px;
+            margin-top: -40px;
+            display: flex;
+            justify-content: center;
+      }
+      .manual-btn{
+            color: aliceblue;
+            border: 2px solid ;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+      }
+      .manual-btn:not(:last-child){
+            margin-right: 40px;
+
+      }
