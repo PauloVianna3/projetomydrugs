@@ -74,29 +74,13 @@
 
  /*Começo da estilização da sessão Sliders*/
 
-       #section-slider{
-            position: relative;
-            height: 600px;
-            padding: 20px;
+ 
+
       
-      }
-      .slides{
-            position: absolute;
-            width: 800px;
-            height: 450px;
-            margin: auto;
             
-            left: 50%;
-            top: 50%;
 
-            transform: translate(-50%, -50%);
-      }
-      .slides img{
-            width:  inherit;
-            height: inherit;
-      }
 
-/*CSS para slide de navegação manual*/
+
 
 
  
