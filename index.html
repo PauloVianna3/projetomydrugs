@@ -30,12 +30,37 @@
                 </Nav>
             </div>
         </header>
-         <section id="section-slider">
-                <div class="slides"> <img src="imagens/cannabis.jpg" alt="Cannabis"> </div>
-                <div class="slides"> <img src="imagens/bud.jpg" alt="buds"> </div>  
-                <div class="slides"> <img src="imagens/promethazin.jpg" alt="prometazin"> </div> 
-                <div class="slides"> <img src="imagens/xanax.jpg" alt="xanax"> </div>        
+
+         <section class="slide">
+                <div class="slides">
+
+                <div id="voltar" class="seta"> 
+                    <i class="fa-solid fa-angles-left"></i>
+                </div>
+
+                <div id="voltar" class="seta"> 
+                    <i class="fa-solid fa-angles-right"></i>
+                </div>
+
+                <div id="imagensslide 1"  class="imagensslide"> <img src="imagens/cannabis.jpg" alt="Cannabis"> </div>
+                <div class="imagensslide"> <img src="imagens/bud.jpg" alt="buds"> </div>  
+                <div class="imagensslide"> <img src="imagens/promethazin.jpg" alt="prometazin"> </div> 
+                <div class="imagensslide"> <img src="imagens/xanax.jpg" alt="xanax"> </div>  
+
+                <input  type="radio" name="radio-btn" id="radio1">
+                <input  type="radio" name="radio-btn" id="radio2">
+                <input  type="radio" name="radio-btn" id="radio3">
+                <input  type="radio" name="radio-btn" id="radio4">
+
+                <div class="navigation-manual">
+                      <label for="radio1" class="manual-btn"></label>
+                      <label for="radio2" class="manual-btn"></label>
+                      <label for="radio3" class="manual-btn"></label>
+                      <label for="radio4" class="manual-btn"></label>
+                </div>
+
          </section>
+
         <footer>
             <p>Site desenvolvido pela equipe &copy;FORCESCREW</p>
         </footer>
